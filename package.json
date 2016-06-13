@@ -1,0 +1,19 @@
+{
+  "name": "arduino",
+  "version": "0.0.1",
+  "description": "Arduino playground",
+  "main": "index.js",
+  "dependencies": {
+    "johnny-five": "^0.9.56",
+    "nodebots-hcsr04": "^0.4.1"
+  },
+  "devDependencies": {
+    "nodebots-interchange": "^1.0.1"
+  },
+  "scripts": {
+    "sensor": "node bin/sensor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tak Tran <tak@samlabs.com>",
+  "license": "ISC"
+}
