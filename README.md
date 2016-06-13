@@ -13,6 +13,7 @@
 
         npm install
 
+* Wire up arduino based on http://johnny-five.io/api/proximity/#hcsr04parallax-ping-
 * Flash arduino with `arduino/PingFirmata` (from [rwaldron](https://gist.githubusercontent.com/rwaldron/0519fcd5c48bfe43b827/raw/f17fb09b92ed04722953823d9416649ff380c35b/PingFirmata.ino))
   * Or alternatively flash using `nodebots-interchange`:
 
